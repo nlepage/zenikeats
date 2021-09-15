@@ -14,7 +14,6 @@ class Order(id: String, clientID: String, items: List<Item>, creationDate: Local
 
     val creationDate = creationDate
 
-
     val statusHistories: List<StatusHistory>
         get() = _statusHistories.toList()
     private var _statusHistories = MutableList(1) { StatusHistory(OrderStatus.CREATED, creationDate) }

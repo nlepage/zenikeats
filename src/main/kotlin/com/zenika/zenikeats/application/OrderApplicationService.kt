@@ -1,5 +1,6 @@
 package com.zenika.zenikeats.application
 
+import com.zenika.zenikeats.domain.IdGenerator
 import com.zenika.zenikeats.domain.order.*
 import java.time.Clock
 import java.time.LocalDateTime

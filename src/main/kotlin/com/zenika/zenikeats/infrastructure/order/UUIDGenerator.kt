@@ -1,6 +1,6 @@
 package com.zenika.zenikeats.infrastructure.order
 
-import com.zenika.zenikeats.domain.order.IdGenerator
+import com.zenika.zenikeats.domain.IdGenerator
 import org.springframework.stereotype.Component
 import java.util.*
 

@@ -1,3 +1,3 @@
-package com.zenika.zenikeats.domain.order
+package com.zenika.zenikeats.domain
 
 typealias IdGenerator = () -> String

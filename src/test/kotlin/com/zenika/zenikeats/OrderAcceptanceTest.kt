@@ -49,7 +49,6 @@ internal class OrderAcceptanceTest(
         mockMvc.perform(get(orderLocation))
             .andDo(MockMvcResultHandlers.print())
             .andExpect(status().isOk)
-            // .andExpect(jsonPath("$.orderId").value(orderId))
             .andExpect(jsonPath("$.clientID").value("clientID"))
             .andExpect(jsonPath("$.status").value("CREATED"))
     }
